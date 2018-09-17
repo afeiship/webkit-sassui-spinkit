@@ -1,0 +1,28 @@
+@import "../dist/webkit-sassui-spinkit.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+.test-webkit-sassui-spinkit {
+  position: absolute;
+  left: 50%;
+  top: 37.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(#000 ,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+
+  p{
+    margin-top: 5px;
+  }
+
+  .webkit-sassui-spinkit {
+  }
+}

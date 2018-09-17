@@ -1,0 +1,40 @@
+/*webkit-sassui-spinkit Start*/
+$webkit-sassui-spinkit-options: (
+  interval: 1.2s,
+  border-width: 2px,
+  size: 28px
+) !default;
+
+.webkit-sassui-spinkit {
+  @keyframes webkit-sassui-spinkit-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  $interval: map-get(
+    $map: $webkit-sassui-spinkit-options,
+    $key: interval
+  );
+  $border-width: map-get(
+    $map: $webkit-sassui-spinkit-options,
+    $key: border-width
+  );
+  $size: map-get(
+    $map: $webkit-sassui-spinkit-options,
+    $key: size
+  );
+
+  -webkit-animation: webkit-sassui-spinkit-rotate $interval infinite linear;
+  animation: webkit-sassui-spinkit-rotate $interval infinite linear;
+  border: $border-width solid;
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: $size;
+  width: $size;
+}
+/*webkit-sassui-spinkit End*/

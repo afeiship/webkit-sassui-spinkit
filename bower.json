@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-spinkit",
+  "description": "A spinkit use pure css",
+  "main": [
+    "dist/webkit-sassui-spinkit.css",
+    "dist/webkit-sassui-spinkit.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "spinkit"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-spinkit",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

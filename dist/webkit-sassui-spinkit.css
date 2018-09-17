@@ -1,0 +1,18 @@
+/*webkit-sassui-spinkit Start*/
+.webkit-sassui-spinkit {
+  -webkit-animation: webkit-sassui-spinkit-rotate 1.2s infinite linear;
+  animation: webkit-sassui-spinkit-rotate 1.2s infinite linear;
+  border: 2px solid;
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 28px;
+  width: 28px; }
+
+@keyframes webkit-sassui-spinkit-rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*webkit-sassui-spinkit End*/
